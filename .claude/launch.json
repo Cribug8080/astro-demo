@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "export PATH=$HOME/.nvm/versions/node/v22.23.4/bin:$PATH && pnpm run dev"
+      ],
+      "port": 4321
+    }
+  ]
+}
